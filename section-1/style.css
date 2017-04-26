@@ -1,0 +1,128 @@
+@font-face {
+	font-family: Apercu;
+	src: url(fonts/apercu_black_trial.otf);
+}
+#container{
+	position:relative;
+	font-family:"Apercu",sans-serif;
+	width:100%;
+	height:100%;
+	background:black;
+	overflow:hidden;
+}
+
+.box-boom{
+	width:500px;
+	height:1000px;
+	position:absolute;
+	top: 25%;
+	left:50px;
+	font-size: 100px;
+	color: #24ff00;
+}
+.box-crash{
+	position:absolute;
+	width:960px;
+	height:50px;
+	font-size:50px;
+	top:10%;
+	left:25%;
+	color:#00ffff;
+}
+.box-whizz{
+	position:absolute;
+	width:400px;
+	height:50px;
+	left:50%;
+	color:#a4dc00;
+}
+.two{
+	position: absolute;
+	left:60%;
+	top:5%;
+	color:#ff3782;
+}
+
+.alternate{
+	position: absolute;
+	left:15%;
+	top:20%;
+	color:#a4dc00;
+}
+
+.box-bang{
+	position:absolute;
+	width:700px;
+	height:50px;
+	font-size:150px;
+	left:70%;
+	color:#d144ff;
+}
+
+.button-stop{
+	width:200px;
+	height:100px;
+	position:absolute;
+	top:80%;
+	left:55%;
+	transform: translate(-50%,-50%);
+	z-index:1500;
+	text-decoration: underline;
+	cursor:pointer;
+	color:#fff;
+	font-size:1.5rem;
+}
+
+body {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+iframe {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	border-image-width: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* DON'T DELETE THIS */
+
+html {
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+/* Clear Float */
+
+.cf:before,.cf:after {
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
